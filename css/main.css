@@ -10,4 +10,16 @@ body {
   position: relative;
   background-color: #444;
 }
+
+nav {
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  color: #039dff;
+}
 /*# sourceMappingURL=main.css.map */

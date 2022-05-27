@@ -9,3 +9,15 @@ body {
     position: relative;
     background-color: #444;
 }
+
+nav {
+    text-transform: uppercase;
+    
+    a {
+color: #fff;
+    }
+    
+    a:hover {
+        color: #039dff;
+    }
+}
