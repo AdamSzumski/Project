@@ -15,8 +15,14 @@ body {
   color: #039dff;
 }
 
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 nav {
   text-transform: uppercase;
+  -webkit-transition: background-color .6;
+  transition: background-color .6;
   z-index: 1;
 }
 

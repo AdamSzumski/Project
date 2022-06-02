@@ -16,9 +16,17 @@ body {
     color: $blue-color;
 }
 
+.shadow-bg {
+    background-color: rgba(0, 0, 0, .8);
+   
+}
+
+
+
 
 nav {
-    text-transform: uppercase;
+    text-transform: uppercase; 
+    transition: background-color .6;
     z-index: 1;
     
    a, i {
