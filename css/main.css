@@ -45,7 +45,12 @@ header {
 }
 
 header h1 {
+  font-size: 30px;
   text-transform: uppercase;
+}
+
+header p {
+  font-size: 14px;
 }
 
 header .hero-img {
@@ -98,6 +103,24 @@ header .fa-chevron-down {
   font-size: 34px;
   bottom: 20px;
   color: #fff;
+}
+
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 42px;
+  }
+  header p {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
