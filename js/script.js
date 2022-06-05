@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
-
 const nav = document.querySelector('.navbar')
+const allNavItems = document.querySelectorAll('.nav-link')
+const NavList = document.querySelector('.navbar-collapse')
 
 function addShadow () {
 
@@ -11,7 +12,13 @@ function addShadow () {
     }
 }
 
+allNavItems.forEach(item => item.addEventListener('click', () => NavList.classList.remove('show')))
+
+
+
+
 
 window.addEventListener('scroll', addShadow)
 
 })
+
