@@ -175,10 +175,26 @@ color:$main-color;
         font-size: 24px;
     }
 }
-
-
-
 }     
+
+.portfolio{
+    .carousel-item{
+        position: relative;
+        height: 600px;
+            }
+
+    .carousel-caption{
+position: absolute;
+left: 0;
+right: 0;
+padding: 40px 0;
+background-color: rgba(0, 0, 0, .8);
+    }  
+    
+    .carousel-indicators{
+        padding: 20px;
+    }
+}
 
 
 @media(min-width: 375px){
