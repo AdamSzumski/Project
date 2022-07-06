@@ -267,6 +267,38 @@ header .fa-chevron-down {
   z-index: -5;
 }
 
+.team .card {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.team .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team .card i {
+  padding: 10px;
+}
+
+.team .card:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+.team .card-title {
+  margin-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team .card-body {
+  height: 160px;
+}
+
 @media (min-width: 375px) {
   html {
     scroll-padding-top: 72px;

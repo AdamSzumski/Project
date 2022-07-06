@@ -246,6 +246,7 @@ a {
     background-color: cover;
     background-attachment: fixed;
     z-index: 0;
+
     h2{
         color: $light-gray;
     }
@@ -258,7 +259,34 @@ a {
         background-color: rgba(0, 0, 0, .8);
         z-index: -5;
     }
+
+    .card {
+        transition: transform .3s;
+        
+        img { height: 300px;
+            object-fit: cover;
+
+        }
+
+        i {
+            padding: 10px;
+        }
+    }
     
+.card:hover{
+    transform: scale(.96);
+}
+
+.card-title {
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-body {
+    height: 160px;
+}
+
 }
 
 
