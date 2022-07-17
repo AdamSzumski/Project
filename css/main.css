@@ -319,6 +319,66 @@ header .fa-chevron-down {
   text-transform: uppercase;
 }
 
+.achievements .contact {
+  position: relative;
+  background-image: url("../img/contact-hero.jpg");
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+
+.achievements .contact h2 {
+  color: #ddd;
+  font-weight: bold;
+}
+
+.achievements .contact .underline {
+  background-color: #ddd;
+}
+
+.achievements .contact .contact-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 9, 27, 0.85);
+  z-index: -5;
+}
+
+.achievements .contact .contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+}
+
+.achievements .contact .contact-us .contact-item {
+  margin: 30px 0;
+}
+
+.achievements .contact .contact-us .contact-item h3 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.achievements .contact .contact-us .contact-item .social-media {
+  font-size: 26px;
+}
+
+.achievements .contact .contact-us .contact-item .social-media a {
+  padding: 10px;
+  color: #fff;
+}
+
+.achievements .contact .contact-us .contact-item .social-media a:hover {
+  color: #ddd;
+}
+
 @media (min-width: 375px) {
   html {
     scroll-padding-top: 72px;
