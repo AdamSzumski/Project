@@ -1,0 +1,46 @@
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+
+header {
+    color: black;
+          
+    }
+
+.hero-img {
+ 
+    position: absolute;
+    width: 1920px;
+    height: 660px;
+    left: 0px;
+    top: 50px;
+    background-image: url(../Webski1/img/hero\ img\ big.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+    border-radius: 0px 0px 410px 0px;
+        }    
+    
+.hero-text {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: #fff;
+    border: 10px;
+    Width: 503px;   
+    Height: 150px;
+    /* Top: 263px;
+    Left: 709px; */
+}        
+
+
+.btn {
+    background-color: #C95237;
+    height: 56px;
+    width: 204px;
+    border-radius: 25px 0px;
+}
